@@ -5,7 +5,7 @@ An intelligent system that helps researchers and students discover relevant rese
 
 ---
 
-### 📌 Problem 
+### Problem 
 With millions of research papers published every year, finding relevant papers and extracting key insights is slow and overwhelming.
 
 This project tackles that by automating:
@@ -16,7 +16,7 @@ This project tackles that by automating:
 
 ---
 
-### 📊 Dataset
+### Dataset
 **ML-ArXiv Papers** from Hugging Face  
 ~15,000 ML research papers with `Title` and `Abstract`
 
@@ -24,7 +24,7 @@ This project tackles that by automating:
 
 ---
 
-### ✨ Key Features
+### Key Features
 
 #### 1. **Data Preprocessing**
 Cleaned and merged `title + abstract` into a single text field for analysis.
@@ -52,10 +52,41 @@ Implemented 3 approaches to extract technical entities:
 
 ---
 
-### 🛠️ Tech Stack
+### Tech Stack
 `Python` `Pandas` `NumPy` `Sentence-Transformers` `FAISS` `HuggingFace Transformers`  
 `KeyBERT` `spaCy` `Scikit-learn`
 
 ---
 
-### 📂 Project Structure
+### Project Structure
+AI-Research-Paper-Intelligent-System
+│
+├── AI_Research_Paper_Intelligent_System.ipynb
+├── README.md
+├── requirements.txt
+
+### Note
+The paper_embeddings.npy and paper_faiss.index files have not been uploaded to this repository due to GitHub file size limitations. These files are automatically generated during the execution of the notebook and can be recreated by running the project from the beginning.
+
+### Key Understandings
+- Building and searching vector embeddings with Sentence Transformers + FAISS
+- Transformer-based summarization with BART
+- Keyword extraction and multi-level NER
+- Designing complete NLP pipelines from data to insights
+
+### Future Improvements
+- [ ] Deploy as a Streamlit / FastAPI web app
+- [ ] Upload and analyze custom research papers
+- [ ] Add paper recommendation and comparison
+- [ ] Auto citation generation
+- [ ] Better technical NER with domain-specific LLMs and knowledge graphs
+
+### Author
+Aastha 
+**B.Tech Computer Science Engineering**  
+Interested in Machine Learning, AI, and Data Analytics.
+
+### Acknowledgement
+This project was part of my NLP learning journey. It gave me practical experience applying modern transformer models to solve real information retrieval problems.
+
+
