@@ -9,3 +9,5 @@ keybert
 spacy
 scikit-learn
 scispacy
+streamlit
+pypdf
